@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bryn Masvaure Blog</title>
     <link  rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <nav>
   <a href="/">Home</a> |
@@ -17,7 +18,7 @@
 <img src="/images/uploads/02.jpg" alt="Image"></img>
 <div>
 <article>
-  <p>###Entrepreneurship – A case for an online presence
+  <p>Entrepreneurship – A case for an online presence
 Just a peak into the list of the world’s most valuable companies (by market capitalization) you will find that four of the top ten are internet based companies. For a clearer picture let’s plug in the numbers:</p>
 <p>Recently we have had giants like Amazon (AMZN) whose market value surged 59.8% from (1898.03 to 3033.53 per share) as inhabitants of earth voluntarily or involuntarily became heavy proponents of e-commerce. I will not even attempt to zoom into the ZOOM story; it is another one which deserves its own article. Now as the global compass is constantly directing us towards this digital (online) route, it begs us to ask: Should startups (Entrepreneurs in Africa) have an online strategy from inception?</p>
 <p>Africa is endowed with a vast collection of natural phenomena, resources and most importantly a vibrant young population which represents a lot of digital (online) penetration potential. Africa presents herself as an environment with the fastest internet growth rates and I strongly believe entrepreneurs should embrace this as an opportunity. Below is a table showing internet user statistics for six Southern African countries:</p>
@@ -36,6 +37,18 @@ Just a peak into the list of the world’s most valuable companies (by market ca
 
 </article>
 </div>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 
   </body>
 </html>
