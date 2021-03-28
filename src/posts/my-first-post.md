@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: My first post
 description: The first post from scratch blog
-date: 2020-04-18
+date: 2021-03-01
 featuredImage: /images/uploads/02.jpg
 ---
 Entrepreneurship – A case for an online presence
